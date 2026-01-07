@@ -3,6 +3,9 @@
 	"name": "HTMV",
 	"patterns": [
 		{
+			"include": "text.html.basic"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
