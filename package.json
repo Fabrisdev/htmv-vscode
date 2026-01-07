@@ -1,13 +1,25 @@
 {
-  "name": "htmv-vscode",
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@biomejs/biome": "2.3.11",
-    "@types/bun": "latest"
+  "name": "htmv",
+  "displayName": "htmv",
+  "description": "HTMV's templating language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.107.0"
   },
-  "peerDependencies": {
-    "typescript": "^5"
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "htmv",
+      "aliases": ["HTMV", "htmv"],
+      "extensions": [".htmv"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "htmv",
+      "scopeName": "text.html.htmv",
+      "path": "./syntaxes/htmv.tmLanguage.json"
+    }]
   }
 }
