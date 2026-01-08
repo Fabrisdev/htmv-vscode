@@ -18,7 +18,7 @@
 			"match": "</?(For|Isset)(?=\\b)",
 			"captures": {
 				"1": {
-					"name": "keyword.control.htmv"
+					"name": "keyword"
 				}
 			}
 		},
