@@ -4,9 +4,12 @@
   "scopeName": "text.html.htmv",
   "patterns": [
 		{
-			"match": "<For (.+?(?=>))",
+			"match": "<(For) (.+?(?=>))",
 			"captures": {
 				"1": {
+					"name": "keyword"
+				},
+				"2": {
 					"name": "variable.other.htmv"
 				}
 			}
