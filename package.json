@@ -21,14 +21,5 @@
       "scopeName": "text.html.htmv",
       "path": "./syntaxes/htmv.tmLanguage.json"
     }]
-  },
-  "module": "index.ts",
-  "type": "module",
-  "private": true,
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5"
   }
 }
