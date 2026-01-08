@@ -26,7 +26,8 @@
   "type": "module",
   "private": true,
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "vscode": "^1.1.37"
   },
   "peerDependencies": {
     "typescript": "^5"
