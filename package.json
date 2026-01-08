@@ -24,6 +24,9 @@
     "snippets": [{
       "language": "htmv",
       "path": "./snippets/html.code-snippets"
+    }, {
+      "language": "htmv",
+      "path": "./snippets/htmv.code-snippets"
     }]
   }
 }
