@@ -1,12 +1,14 @@
 {
-	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
-	"name": "HTMV",
-	"patterns": [
-		{
-			"include": "text.html.basic"
-		}
-	],
-	"repository": {
-	},
-	"scopeName": "text.html.htmv"
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "HTMV",
+  "scopeName": "text.html.htmv",
+  "patterns": [
+    {
+      "name": "keyword.control.htmv",
+      "match": "</?(For|Isset)\\b"
+    },
+    {
+      "include": "text.html.basic"
+    }
+  ]
 }
