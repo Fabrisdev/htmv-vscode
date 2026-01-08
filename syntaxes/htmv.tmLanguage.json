@@ -4,6 +4,10 @@
   "scopeName": "text.html.htmv",
   "patterns": [
 		{
+			"match": "{[a-zA-Z_][a-zA-Z0-9_.]+}",
+			"name": "string"
+		},
+		{
 			"match": "<(For) (.+?(?=>))",
 			"captures": {
 				"1": {
