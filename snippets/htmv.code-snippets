@@ -1,0 +1,12 @@
+{
+  "For": {
+    "prefix": "For",
+    "body": [
+      "<For $1 in $2>",
+      "",
+      "</For"
+    ],
+    "description": "HTML - Defines a hyperlink",
+    "scope": "text.html"
+  },
+}
