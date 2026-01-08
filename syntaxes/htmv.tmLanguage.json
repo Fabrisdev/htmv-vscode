@@ -11,6 +11,14 @@
 				}
 			}
 		},
+		{
+			"match": "<For (.+?(?=>))",
+			"captures": {
+				"1": {
+					"name": "variable.other.htmv"
+				}
+			}
+		},
     {
       "include": "text.html.basic"
     }
