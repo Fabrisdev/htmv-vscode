@@ -20,6 +20,10 @@
       "language": "htmv",
       "scopeName": "text.html.htmv",
       "path": "./syntaxes/htmv.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "htmv",
+      "path": "./snippets/html.code-snippets"
     }]
   }
 }
