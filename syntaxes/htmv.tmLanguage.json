@@ -4,18 +4,18 @@
   "scopeName": "text.html.htmv",
   "patterns": [
 		{
-			"match": "</?(For|Isset)(?=\\b)",
-			"captures": {
-				"1": {
-					"name": "keyword.control.htmv"
-				}
-			}
-		},
-		{
 			"match": "<For (.+?(?=>))",
 			"captures": {
 				"1": {
 					"name": "variable.other.htmv"
+				}
+			}
+		},
+		{
+			"match": "</?(For|Isset)(?=\\b)",
+			"captures": {
+				"1": {
+					"name": "keyword.control.htmv"
 				}
 			}
 		},
