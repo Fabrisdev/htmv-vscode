@@ -6,7 +6,7 @@
       "",
       "</For>"
     ],
-    "description": "HTML - Defines a hyperlink",
-    "scope": "text.html"
+    "description": "HTMV - Defines a for loop",
+    "scope": "htmv"
   },
 }
