@@ -8,7 +8,7 @@
 			"name": "string"
 		},
 		{
-			"match": "<(For) (.+?(?=>))",
+			"match": "<(For|Isset) (.+?(?=>))",
 			"captures": {
 				"1": {
 					"name": "keyword"
