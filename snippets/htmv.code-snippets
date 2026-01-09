@@ -9,4 +9,14 @@
     "description": "HTMV - Defines a for loop",
     "scope": "htmv"
   },
+  "Isset": {
+    "prefix": "Isset",
+    "body": [
+      "<Isset $1>",
+      "",
+      "</Isset>"
+    ],
+    "description": "HTMV - Defines an isset tag",
+    "scope": "htmv"
+  },
 }
