@@ -1,12 +1,10 @@
-# HTMV VSCODE
-This is HTMV's extension for syntax highlighting.
-
-## Usage
-It has not yet been published onto the Marketplace. However, you can try out the extension by getting the repo and pressing F5.
+## HTMV's extension for syntax highlighting.
+This extension adds support for '.htmv' files. HTMV is a new web framework focused on server-side rendering. You can read more about it on its [Docs site](https://htmv.fabris.dev).
 
 ## Features
 - Syntax highlighting for '.htmv' files.
 - HTMV's special snippets for views.
+- All your favorite '.html' snippets are here too! *(thanks abusaidm!)*
 
 ## Credits
 - [abusaidm/html-snippets](https://github.com/abusaidm/html-snippets)  
