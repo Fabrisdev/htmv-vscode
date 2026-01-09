@@ -28,5 +28,9 @@
       "language": "htmv",
       "path": "./snippets/htmv.code-snippets"
     }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabrisdev/htmv-vscode"
   }
 }
