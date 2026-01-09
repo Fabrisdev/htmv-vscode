@@ -33,5 +33,6 @@
     "type": "git",
     "url": "https://github.com/fabrisdev/htmv-vscode"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "publisher": "fabrisdev"
 }
